@@ -1,7 +1,18 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             tools:context="me.androidbox.jooxmusic.JooxMusicFragment">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="me.androidbox.jooxmusic.JooxMusicFragment">
 
-</FrameLayout>
+    <include
+        android:id="@+id/tbJooxMusic"
+        layout="@layout/toolbar"/>
+
+    <include
+        layout="@layout/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbJooxMusic"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
