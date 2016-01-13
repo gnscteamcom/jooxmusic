@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- Blue Grey 50 -->
+    <color name="backgroundStart">#ECEFF1</color>
+    <!-- Blue Grey 500 -->
+    <color name="backgroundEnd">#607D8B</color>
+    <!-- Orange 400 -->
+    <color name="vip">#FFA726</color>
+    <!-- Light Green A700 -->
+    <color name="brightGreen">#64DD17</color>
 </resources>
