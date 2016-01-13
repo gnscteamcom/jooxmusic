@@ -34,9 +34,9 @@ public class JooxMusicFragment extends Fragment {
 
         /* Add the tabs */
         TabLayout tabLayout = (TabLayout)view.findViewById(R.id.tlJooxMusic);
-        tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.ic_music_video_white_36dp));
-        tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.ic_youtube_searched_for_white_36dp));
-        tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.ic_radio_white_36dp));
+        tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.music_selector));
+        tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.search_selector));
+        tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.radio_selector));
         return view;
     }
 
