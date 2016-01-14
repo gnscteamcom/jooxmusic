@@ -8,5 +8,4 @@
         android:type="radial"
         android:gradientRadius="450dp">
     </gradient>
-
 </shape>
