@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginLeft="16dp"
-        android:src="@drawable/favourites_72dp"
+        android:src="@drawable/favourite_background"
         android:scaleType="centerInside"/>
 
     <TextView

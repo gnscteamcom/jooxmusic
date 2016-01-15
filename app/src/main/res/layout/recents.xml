@@ -13,7 +13,7 @@
         android:layout_below="@id/ivFavourites"
         android:layout_centerVertical="true"
         android:layout_marginLeft="16dp"
-        android:src="@drawable/recent_72dp"
+        android:src="@drawable/recents_background"
         android:scaleType="centerInside"/>
 
     <TextView
