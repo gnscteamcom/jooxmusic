@@ -26,9 +26,42 @@
         android:layout_marginTop="16dp"/>
 
     <include
+        android:id="@+id/recent_include"
         layout="@layout/song_selection"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/songCollectionInclude"/>
+
+    <include
+        android:id="@+id/playListInclude"
+        layout="@layout/playlists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recent_include"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"/>
+
+    <include
+        android:id="@+id/simpleMindsInclude"
+        layout="@layout/simple_minds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playListInclude"
+        android:layout_marginLeft="16dp"/>
+
+    <View
+        android:id="@+id/lineMiddle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/simpleMindsInclude"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/backgroundEndSecond"/>
 
 </RelativeLayout>

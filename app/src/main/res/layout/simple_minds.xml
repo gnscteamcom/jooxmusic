@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivPopPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/simple_minds_72dp"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/ivPopPic"
+        android:layout_toRightOf="@id/ivPopPic"
+        android:layout_alignTop="@id/ivPopPic"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Simple Minds"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium"/>
+
+    <ImageView
+        android:id="@+id/ivNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/ivPopPic"
+        android:layout_toRightOf="@id/ivPopPic"
+        android:layout_alignBottom="@id/ivPopPic"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_music_note_white_18dp"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/tvNoteCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/ivNote"
+        android:layout_toRightOf="@id/ivNote"
+        android:layout_alignBottom="@id/ivPopPic"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="99"
+        android:textSize="16sp"
+        android:textColor="#263238"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"/>
+
+    <ImageView
+        android:id="@+id/ivDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvNoteCount"
+        android:layout_toRightOf="@id/tvNoteCount"
+        android:layout_alignBottom="@id/ivPopPic"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_done_white_18dp"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/tvDoneCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/ivDone"
+        android:layout_toRightOf="@id/ivDone"
+        android:layout_alignBottom="@id/ivPopPic"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="16"
+        android:textSize="16sp"
+        android:textColor="#263238"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
