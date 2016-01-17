@@ -46,8 +46,8 @@
         android:layout_toEndOf="@id/ivNote"
         android:layout_toRightOf="@id/ivNote"
         android:layout_alignBottom="@id/ivPopPic"
-        android:layout_marginLeft="4dp"
-        android:layout_marginStart="4dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginStart="2dp"
         android:layout_marginBottom="8dp"
         android:text="99"
         android:textSize="16sp"
@@ -61,11 +61,12 @@
         android:layout_toEndOf="@id/tvNoteCount"
         android:layout_toRightOf="@id/tvNoteCount"
         android:layout_alignBottom="@id/ivPopPic"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
         android:layout_marginBottom="8dp"
         android:src="@drawable/ic_done_white_18dp"
-        android:scaleType="centerInside"/>
+        android:scaleType="centerInside"
+        android:background="@drawable/green_circle_shape"/>
 
     <TextView
         android:id="@+id/tvDoneCount"
@@ -74,8 +75,8 @@
         android:layout_toEndOf="@id/ivDone"
         android:layout_toRightOf="@id/ivDone"
         android:layout_alignBottom="@id/ivPopPic"
-        android:layout_marginLeft="4dp"
-        android:layout_marginStart="4dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginStart="2dp"
         android:layout_marginBottom="8dp"
         android:text="16"
         android:textSize="16sp"
