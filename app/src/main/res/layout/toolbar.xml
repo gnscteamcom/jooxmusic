@@ -7,7 +7,7 @@
     android:layout_height="?android:actionBarSize"
     android:minHeight="?android:actionBarSize"
     app:theme="@style/ThemeOverlay.AppCompat.Dark"
-    android:background="@android:color/transparent">
+    android:background="#991de9b6">
 
     <FrameLayout
         android:layout_width="match_parent"

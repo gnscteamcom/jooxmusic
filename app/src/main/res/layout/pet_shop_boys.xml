@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/ivPopPic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/simple_minds_72dp"
+        android:src="@drawable/pet_shop_boys"
         android:scaleType="centerInside"/>
 
     <TextView
@@ -21,7 +20,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="Simple Minds"
+        android:text="Pet Shop Boys"
         android:textSize="22sp"
         android:textColor="@android:color/white"
         android:fontFamily="sans-serif-medium"/>
@@ -49,7 +48,7 @@
         android:layout_marginLeft="4dp"
         android:layout_marginStart="4dp"
         android:layout_marginBottom="8dp"
-        android:text="99"
+        android:text="43"
         android:textSize="16sp"
         android:textColor="#263238"
         android:fontFamily="sans-serif-medium"/>
@@ -77,7 +76,7 @@
         android:layout_marginLeft="4dp"
         android:layout_marginStart="4dp"
         android:layout_marginBottom="8dp"
-        android:text="16"
+        android:text="31"
         android:textSize="16sp"
         android:textColor="#263238"
         android:fontFamily="sans-serif-medium" />
