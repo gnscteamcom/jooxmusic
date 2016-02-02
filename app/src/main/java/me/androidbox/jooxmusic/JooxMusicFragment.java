@@ -24,9 +24,10 @@ public class JooxMusicFragment extends Fragment {
         // Inflate the layout for this fragment
         final View view = inflater.inflate(R.layout.fragment_joox_music, container, false);
 
-        /* Add the toolbar */
+        /* Add the toolbar - cast to AppCompatActivity as we are doing this in our fragment */
         final AppCompatActivity appCompatActivity = (AppCompatActivity)getActivity();
         final Toolbar toolbar = (Toolbar)view.findViewById(R.id.tbJooxMusic);
+        /* We are using setSupportActionBar for backward compatibility with older devices */
         appCompatActivity.setSupportActionBar(toolbar);
 
         /* Remove the title from the toolbar */
@@ -34,9 +35,11 @@ public class JooxMusicFragment extends Fragment {
 
         /* Add the tabs */
         TabLayout tabLayout = (TabLayout)view.findViewById(R.id.tlJooxMusic);
+        /* Use the selector for the displaying the icons */
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.music_selector));
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.search_selector));
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.radio_selector));
+
         return view;
     }
 
