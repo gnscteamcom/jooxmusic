@@ -1,9 +1,9 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_layer"
-    android:orientation="vertical"
     tools:context="me.androidbox.jooxmusic.JooxMusicFragment">
 
     <include
@@ -11,6 +11,7 @@
         layout="@layout/toolbar" />
 
     <android.support.v4.widget.NestedScrollView
+        android:layout_below="@id/tbJooxMusic"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -71,7 +72,7 @@
                 android:background="@color/backgroundEndSecond" />
 
             <include
-                android:id="@+id/simpleMindsInclude"
+                android:id="@+id/erasureInclude"
                 layout="@layout/erasure"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -91,7 +92,7 @@
                 android:background="@color/backgroundEndSecond" />
 
             <include
-                android:id="@+id/simpleMindsInclude"
+                android:id="@+id/petShopboysInclude"
                 layout="@layout/pet_shop_boys"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -99,4 +100,15 @@
                 android:layout_marginStart="16dp" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
-</LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivLPRecord"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/lprecord"
+        android:scaleType="centerCrop"/>
+
+</RelativeLayout>

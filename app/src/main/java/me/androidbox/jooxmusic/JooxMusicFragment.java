@@ -9,6 +9,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -39,6 +42,16 @@ public class JooxMusicFragment extends Fragment {
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.music_selector));
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.search_selector));
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.radio_selector));
+
+        final ImageView ivLPRecord = (ImageView)view.findViewById(R.id.ivLPRecord);
+        View petshopboys = view.findViewById(R.id.petShopboysInclude);
+        petshopboys.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Animation animation = AnimationUtils.loadAnimation(getActivity(), R.anim.rotate_record);
+                ivLPRecord.startAnimation(animation);
+            }
+        });
 
         return view;
     }
