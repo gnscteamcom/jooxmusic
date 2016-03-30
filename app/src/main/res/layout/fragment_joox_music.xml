@@ -7,7 +7,7 @@
     tools:context="me.androidbox.jooxmusic.JooxMusicFragment">
 
     <include
-        android:id="@+id/tbJooxMusic"
+        android:id="@+id/tbJooxMusic_included"
         layout="@layout/toolbar" />
 
     <include
@@ -23,4 +23,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp" />
+
+    <include
+        android:id="@+id/favourites_included"
+        layout="@layout/favourites"/>
+
+    <include
+        android:id="@+id/recents_included"
+        layout="@layout/recents"/>
 </LinearLayout>
